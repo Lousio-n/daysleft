@@ -1,2 +1,2 @@
-# daysleft
-Coutdown util specific date
+# Daysleft
+A coutdown to a specific time/date.
