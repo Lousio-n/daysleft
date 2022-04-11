@@ -3,19 +3,35 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+body {
+  background-color: #6b6b57;
+}  
 p {
   display: inline;
-  font-size: 40px;
-  margin-top: 0px;
+  font-size: 60px;
 }
+div {
+  width: 500px;
+  height: 100px;
+    
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+    
+  margin: auto;
+}  
 </style>
 </head>
 <body>
+ <div>
     <p id="days"></p>
     <p id="hours"></p>
     <p id="mins"></p>
     <p id="secs"></p>
     <h2 id="end"></h2>
+ </div>    
     <script>
     // The data/time we want to countdown to
     var countDownDate = new Date("May 10, 2022 17:00:00").getTime();
