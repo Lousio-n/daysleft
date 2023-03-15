@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  background-color: #16182e;
+  color: white;
+}
+p {
+  font-size: 60px;
+  font-family: 'Courier New';
+}
+.timer-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}  
